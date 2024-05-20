@@ -1,0 +1,15 @@
+﻿EventName,EventID,CharacterName,CharacterID,MultipleChoice,Note,Korea,English
+집,1,촌장,2,,,어서 오시게` 용사여,hi
+,,,,,,오늘 일은 어땠는가?,hello
+,,주인공,1,,,평소대로 입니다.,how are you
+,,촌장,2,,,역시 대단하군. ,I'm fine
+,,,,,,요즘 몬스터들이\ 흉폭해졌다고 해서 걱정했거늘,thank you
+,,,,,,자네가 있다면 걱정이 없군,why
+,,,,0,,그런데 말이야 혹시 부탁\ 하나만 더 들어줄 수 있는가?,when
+,,촌장,2,,,고맙네,how are you
+,,주인공,1,,,그럼 다음에 뵙겠습니다.,hi
+end,,,,,,,
+,,,,,,,
+주인공 집,2,주인공,1,,,오늘 하루도 피곤했다.,hi
+,,,,,,내일을 위해서 일찍 잠에 들어야겠어.,hi
+end,,,,,,,

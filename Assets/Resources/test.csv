@@ -1,0 +1,11 @@
+﻿MultipleChoiceName,MultipleChoiceId,choiceId,characterName,characterId,Note,Korea,English
+촌장의 부탁대답,1,1,주인공,1,,당연하죠! 촌장님 부탁인데요!,hi
+,,2,주인공,1,,하기 귀찮은데…,hi
+,,,촌장,2,,그래도 좀 해주면 안되겠나…?,hi
+,,,주인공,1,,뭐 해드리죠…,hi
+,,3,주인공,1,,음…,hi
+,,,,,,한번 생각해볼게요,hi
+,,,촌장,2,,내가 이렇게 긴히 부탁합세,hi
+,,,,,,꼭 해주게나…,hi
+,,,주인공,1,,네네.. 알겠어요…,hi
+end,,,,,,,
