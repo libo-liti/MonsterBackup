@@ -102,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638518158453890991
+  platformSettingsDirtyTick: 638518329571111105
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -128,8 +128,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Spider_Standing_1_Frame_1
     originalName: 
-    pivot: {x: 0.5862069, y: -0.3382353}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -137,7 +137,7 @@ ScriptedImporter:
       y: 81
       width: 87
       height: 68
-    spriteID: 4dba69c4e3db86c4c93718eb553648e5
+    spriteID: f8064d353abcd8b4d89b7ef07f790879
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,7 +157,7 @@ ScriptedImporter:
       y: 4
       width: 87
       height: 69
-    spriteID: 9b75515d4e0a3e842be97480216c16b1
+    spriteID: 51cfa88b643f64148b7878cd2a3b6427
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +177,7 @@ ScriptedImporter:
       y: 157
       width: 87
       height: 68
-    spriteID: e9f2d29af8d7e2644a7d6a1ff5a4a187
+    spriteID: aff7430cc9ca8e049b3031e84a3fb382
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,7 +197,7 @@ ScriptedImporter:
       y: 4
       width: 87
       height: 67
-    spriteID: dbc5bb02232a0484190e318ae4f73948
+    spriteID: 6f2c79ca5e3edd640b76a20640cf0f38
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,7 +222,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 68
-      spriteId: 4dba69c4e3db86c4c93718eb553648e5
+      spriteId: f8064d353abcd8b4d89b7ef07f790879
     - name: Spider_Standing_1_Frame_2
       frameIndex: 2
       cellRect:
@@ -230,7 +230,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 69
-      spriteId: 9b75515d4e0a3e842be97480216c16b1
+      spriteId: 51cfa88b643f64148b7878cd2a3b6427
     - name: Spider_Standing_1_Frame_3
       frameIndex: 3
       cellRect:
@@ -238,7 +238,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 68
-      spriteId: e9f2d29af8d7e2644a7d6a1ff5a4a187
+      spriteId: aff7430cc9ca8e049b3031e84a3fb382
     - name: Spider_Standing_1_Frame_0
       frameIndex: 0
       cellRect:
@@ -246,7 +246,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 67
-      spriteId: dbc5bb02232a0484190e318ae4f73948
+      spriteId: 6f2c79ca5e3edd640b76a20640cf0f38
     linkedCells: []
     parentIndex: -1
   platformSettings:

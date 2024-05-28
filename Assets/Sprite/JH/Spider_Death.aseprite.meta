@@ -102,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638518158453880971
+  platformSettingsDirtyTick: 638518329508446341
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -128,8 +128,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Spider_Death_Frame_0
     originalName: 
-    pivot: {x: 0.5862069, y: -0.3432836}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -137,7 +137,7 @@ ScriptedImporter:
       y: 4
       width: 87
       height: 67
-    spriteID: b68a7aae32a7ccf4f8d58caa3bd8f1c3
+    spriteID: 5d1aa7de1e89c904d9451bb42147df05
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,7 +157,7 @@ ScriptedImporter:
       y: 79
       width: 81
       height: 65
-    spriteID: ab2b59d7360b159429345e0e9bd27bfe
+    spriteID: cf116c6675560824db46b46e768f4d62
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +177,7 @@ ScriptedImporter:
       y: 72
       width: 77
       height: 65
-    spriteID: 03ab32d53e5f5c44e88daa1cda9e720e
+    spriteID: c2ab3f21822583847954999d7e6faf6d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,7 +197,7 @@ ScriptedImporter:
       y: 152
       width: 80
       height: 65
-    spriteID: b8b06b7a4fdffc842b8c66e675532332
+    spriteID: 1255055b7503f7649b49784ac2052edb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -217,7 +217,7 @@ ScriptedImporter:
       y: 4
       width: 91
       height: 60
-    spriteID: fbd21b1d8ebbd354f909c57871e44f62
+    spriteID: d39da87ae9eab3041b3c9484e65c6d05
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -237,7 +237,7 @@ ScriptedImporter:
       y: 145
       width: 86
       height: 44
-    spriteID: 677e475d7d815eb428b6533f71cedc7b
+    spriteID: 6a37caf5ed0ccd9449b06cf286b7a90c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,7 +262,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 67
-      spriteId: b68a7aae32a7ccf4f8d58caa3bd8f1c3
+      spriteId: 5d1aa7de1e89c904d9451bb42147df05
     - name: Spider_Death_Frame_1
       frameIndex: 1
       cellRect:
@@ -270,7 +270,7 @@ ScriptedImporter:
         y: 23
         width: 81
         height: 65
-      spriteId: ab2b59d7360b159429345e0e9bd27bfe
+      spriteId: cf116c6675560824db46b46e768f4d62
     - name: Spider_Death_Frame_2
       frameIndex: 2
       cellRect:
@@ -278,7 +278,7 @@ ScriptedImporter:
         y: 23
         width: 77
         height: 65
-      spriteId: 03ab32d53e5f5c44e88daa1cda9e720e
+      spriteId: c2ab3f21822583847954999d7e6faf6d
     - name: Spider_Death_Frame_3
       frameIndex: 3
       cellRect:
@@ -286,7 +286,7 @@ ScriptedImporter:
         y: 23
         width: 80
         height: 65
-      spriteId: b8b06b7a4fdffc842b8c66e675532332
+      spriteId: 1255055b7503f7649b49784ac2052edb
     - name: Spider_Death_Frame_4
       frameIndex: 4
       cellRect:
@@ -294,7 +294,7 @@ ScriptedImporter:
         y: 23
         width: 91
         height: 60
-      spriteId: fbd21b1d8ebbd354f909c57871e44f62
+      spriteId: d39da87ae9eab3041b3c9484e65c6d05
     - name: Spider_Death_Frame_5
       frameIndex: 5
       cellRect:
@@ -302,7 +302,7 @@ ScriptedImporter:
         y: 22
         width: 86
         height: 44
-      spriteId: 677e475d7d815eb428b6533f71cedc7b
+      spriteId: 6a37caf5ed0ccd9449b06cf286b7a90c
     linkedCells: []
     parentIndex: -1
   platformSettings:

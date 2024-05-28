@@ -13,12 +13,12 @@ public class ChaseState : IMonsterState
     {
         if (GameObject.Find("Player").transform.position.x - _monster.transform.position.x > 0)
         {
-            _monster.transform.position += Vector3.right * Time.deltaTime;
+            _monster.transform.position += Vector3.right * Time.deltaTime * 6;
             _monster.transform.localScale = new Vector3(1, 1, 1);
         }
         if (GameObject.Find("Player").transform.position.x - _monster.transform.position.x < 0)
         {
-            _monster.transform.position += Vector3.left * Time.deltaTime;
+            _monster.transform.position += Vector3.left * Time.deltaTime * 6;
             _monster.transform.localScale = new Vector3(-1, 1, 1);
         }
     }

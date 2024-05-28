@@ -102,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638518158453880971
+  platformSettingsDirtyTick: 638518329262232352
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -128,8 +128,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Spider_Attack_1_Frame_0
     originalName: 
-    pivot: {x: 0.6206897, y: -0.36507937}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -137,7 +137,7 @@ ScriptedImporter:
       y: 4
       width: 87
       height: 63
-    spriteID: 7305bcc8df9d3d8439325515ebc8d1ac
+    spriteID: af67fccda95bb7b46ab562f2054f8fd0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,7 +157,7 @@ ScriptedImporter:
       y: 75
       width: 88
       height: 59
-    spriteID: 30212a1fe3c8ba24d9cf0d441cff523e
+    spriteID: 6c3ab6a990ab05f45bcdd67cd6622633
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +177,7 @@ ScriptedImporter:
       y: 4
       width: 117
       height: 69
-    spriteID: 98247d8a0ae6dd1449b1685711e543ed
+    spriteID: 1062f38fcff46a6428caa72b502d590f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,7 +197,7 @@ ScriptedImporter:
       y: 156
       width: 116
       height: 60
-    spriteID: 28c551f770b7cf94d9f8302cb33701fb
+    spriteID: fa3a555c76fc1e845b6d42055e1e6fb3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -217,7 +217,7 @@ ScriptedImporter:
       y: 81
       width: 113
       height: 67
-    spriteID: d306d631a5317c74d881ff067b4fdd99
+    spriteID: 7468c512b00d9c04d8e979a9580693fa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -242,7 +242,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 63
-      spriteId: 7305bcc8df9d3d8439325515ebc8d1ac
+      spriteId: af67fccda95bb7b46ab562f2054f8fd0
     - name: Spider_Attack_1_Frame_1
       frameIndex: 1
       cellRect:
@@ -250,7 +250,7 @@ ScriptedImporter:
         y: 24
         width: 88
         height: 59
-      spriteId: 30212a1fe3c8ba24d9cf0d441cff523e
+      spriteId: 6c3ab6a990ab05f45bcdd67cd6622633
     - name: Spider_Attack_1_Frame_2
       frameIndex: 2
       cellRect:
@@ -258,7 +258,7 @@ ScriptedImporter:
         y: 22
         width: 117
         height: 69
-      spriteId: 98247d8a0ae6dd1449b1685711e543ed
+      spriteId: 1062f38fcff46a6428caa72b502d590f
     - name: Spider_Attack_1_Frame_3
       frameIndex: 3
       cellRect:
@@ -266,7 +266,7 @@ ScriptedImporter:
         y: 23
         width: 116
         height: 60
-      spriteId: 28c551f770b7cf94d9f8302cb33701fb
+      spriteId: fa3a555c76fc1e845b6d42055e1e6fb3
     - name: Spider_Attack_1_Frame_4
       frameIndex: 4
       cellRect:
@@ -274,7 +274,7 @@ ScriptedImporter:
         y: 23
         width: 113
         height: 67
-      spriteId: d306d631a5317c74d881ff067b4fdd99
+      spriteId: 7468c512b00d9c04d8e979a9580693fa
     linkedCells: []
     parentIndex: -1
   platformSettings:

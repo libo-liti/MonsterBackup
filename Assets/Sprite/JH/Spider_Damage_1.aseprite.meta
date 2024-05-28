@@ -102,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638518158453880971
+  platformSettingsDirtyTick: 638518329452249121
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -128,8 +128,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Spider_Damage_1_Frame_0
     originalName: 
-    pivot: {x: 0.6091954, y: -0.35384616}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -137,7 +137,7 @@ ScriptedImporter:
       y: 4
       width: 87
       height: 65
-    spriteID: 72f54f00d6aa5a74d8fb64e829b85adc
+    spriteID: 1521ae03e1bbce740a6a96561c844ede
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,7 +157,7 @@ ScriptedImporter:
       y: 4
       width: 87
       height: 65
-    spriteID: 453b740a40704e14b80553780a2e2a2e
+    spriteID: 96c6c4c3d2854c14e89ef11df6cb7a38
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,7 +177,7 @@ ScriptedImporter:
       y: 77
       width: 87
       height: 65
-    spriteID: 7db93efab1f01ec4da7debc1b603c22f
+    spriteID: 72614fa2317ec5b49880d4f9d00bfda4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,7 +197,7 @@ ScriptedImporter:
       y: 77
       width: 86
       height: 65
-    spriteID: f26d7a5b02b04ef4b8ad226ef42acc9a
+    spriteID: 544f8013ce390394e9e63c4dfaf8d5d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,7 +222,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 65
-      spriteId: 72f54f00d6aa5a74d8fb64e829b85adc
+      spriteId: 1521ae03e1bbce740a6a96561c844ede
     - name: Spider_Damage_1_Frame_1
       frameIndex: 1
       cellRect:
@@ -230,7 +230,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 65
-      spriteId: 453b740a40704e14b80553780a2e2a2e
+      spriteId: 96c6c4c3d2854c14e89ef11df6cb7a38
     - name: Spider_Damage_1_Frame_2
       frameIndex: 2
       cellRect:
@@ -238,7 +238,7 @@ ScriptedImporter:
         y: 23
         width: 87
         height: 65
-      spriteId: 7db93efab1f01ec4da7debc1b603c22f
+      spriteId: 72614fa2317ec5b49880d4f9d00bfda4
     - name: Spider_Damage_1_Frame_3
       frameIndex: 3
       cellRect:
@@ -246,7 +246,7 @@ ScriptedImporter:
         y: 23
         width: 86
         height: 65
-      spriteId: f26d7a5b02b04ef4b8ad226ef42acc9a
+      spriteId: 544f8013ce390394e9e63c4dfaf8d5d6
     linkedCells: []
     parentIndex: -1
   platformSettings:

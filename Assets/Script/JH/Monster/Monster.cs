@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    int hp;
     int moveSpeed;
 }

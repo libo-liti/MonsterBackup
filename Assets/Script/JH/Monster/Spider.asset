@@ -15,6 +15,6 @@ MonoBehaviour:
   name: 
   level: 1
   hp: 5
-  moveSpeed: 4
-  fieldOfView: 10
+  moveSpeed: 10
+  fieldOfView: 40
   attackRange: 3
