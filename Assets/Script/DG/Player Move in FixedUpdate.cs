@@ -1,39 +1,37 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMoveinFixedUpdate : MonoBehaviour
 {
     private Rigidbody2D rigid;
+    private Animator ani;
 
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public int jumpCount; //not use now but player can double jump it'll be use
-    public bool isGrounded;
 
     public float hangTime = .1f;
     public float hangCounter;
     public float jumpBufferLength = .1f;
     public float jumpBufferCount;
-    public bool isJump;
     public float arrowInput;
     public bool jumpInputUp;
-    public static bool moveFlag;
-    public static float lastTime = 0;
-    public static Vector3 lastPos;
-    public Animator ani;
+
+    public bool isGrounded; // != IsJump
+    public bool isSliding;
+
     public SpriteRenderer sprite;
-    // Start is called before the first frame update
+
+    static public bool moveFlag = true;
+    static public float lastTime;
+    static public Vector3 lastPos;
+    static public bool flag = true;
     void Start()
     {
-        moveFlag = true;
         hangTime = .1f;
-        isJump = false;
         jumpInputUp = false;
         rigid = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
-        Gravity();
+        ani = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,24 +42,32 @@ public class PlayerMoveinFixedUpdate : MonoBehaviour
             ArrowInput();
             Jump();
             Flip();
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                ani.SetTrigger("IsAttack");
+            }
+            ani.SetBool("IsJump", !isGrounded);
+            ani.SetBool("IsSliding", isSliding);
+            ani.SetFloat("Jump_V", rigid.velocity.y);
         }
         else
         {
             transform.position = lastPos;
-            if (Time.time - lastTime > 3.0f)
+            if (Time.time - lastTime >= 3)
+            {
                 moveFlag = true;
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        rigid.velocity = new Vector2(arrowInput * moveSpeed, rigid.velocity.y);
+        if (flag)
+            rigid.velocity = new Vector2(arrowInput * moveSpeed, rigid.velocity.y);
         if (jumpBufferCount >= 0 && hangCounter >= 0f && isGrounded)
         {
             rigid.AddForce(new Vector2(0, jumpForce));
-            isGrounded = false;
             jumpBufferCount = 0;
-            isJump = true;
         }
 
         if (jumpInputUp) //jump velocity / 2
@@ -69,16 +75,23 @@ public class PlayerMoveinFixedUpdate : MonoBehaviour
             rigid.velocity = new Vector2(rigid.velocity.x, rigid.velocity.y * .5f);
             jumpInputUp = false;
         }
+
+        Landing_Platform();
     }
 
-    public void Gravity(int i = 0)
-    {
-        rigid.gravityScale = i;
-    }
 
     private void ArrowInput()
     {
         arrowInput = Input.GetAxisRaw("Horizontal");
+        if (arrowInput == 0)
+        {
+            ani.SetBool("IsMove", false);
+        }
+        else
+        {
+            ani.SetBool("IsMove", true);
+        }
+
     }
 
     void Jump()
@@ -122,11 +135,35 @@ public class PlayerMoveinFixedUpdate : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Platform"))
         {
-            isGrounded = true;
-            if (isJump)
+            if (!isGrounded)
             {
-                isJump = false;
+                if (rigid.velocity.y < 0 && arrowInput != 0)
+                {
+                    isSliding = true;
+                }
             }
+            else
+            {
+                isSliding = false;
+            }
+        }
+    }
+
+    private void Landing_Platform()
+    {
+        var rayHit = Physics2D.Raycast(rigid.position, Vector2.down, 1f,
+            LayerMask.GetMask("Platform"));
+        if (rayHit.collider != null)
+        {
+            if (rayHit.distance < 0.15f)
+            {
+                isGrounded = true;
+            }
+        }
+        else
+        {
+            isGrounded = false;
+            isSliding = false;
         }
     }
 
@@ -134,7 +171,7 @@ public class PlayerMoveinFixedUpdate : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Platform"))
         {
-            isGrounded = false;
+            isSliding = false;
         }
     }
 }
